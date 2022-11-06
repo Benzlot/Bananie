@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding-top: 2rem;
+  background-color: #FDFDBD;
+}
+
+.form-signin {
+  max-width: 25rem;
+  margin: auto;
+}
+p {
+  padding-bottom: 25px;
+}
+img{
+  height: 300px;
+  margin-bottom: 0rem;
+}

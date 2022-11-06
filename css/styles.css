@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a8914f;
+  margin: 0;
+}
+
+#title {
+
+  top: 0;
+  background-image: url(/OakTree-Bootstrap-Start-master/images/backmain.JPG);
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Taviraj', serif;
+  font-size: 4rem;
+  font-weight: medium;
+  line-height: 1.5;
+
+}
+
+.container-fluid {
+  padding: 4% 10%;
+
+}
+
+/* Navigation Bar */
+.navbar {
+  position: relative;
+  background-color: rgba(71, 45, 45, 0.9);
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.4s;
+}
+
+.fixed-top {
+  position: sticky;
+}
+
+.navbar-nav {
+ 
+  flex-direction: row;
+  margin-right: 45;
+}
+
+.img {
+  position: absolute;
+  left: 0.25rem;
+  top: 0.25rem;
+  width: 6%;
+
+}
+
+.imgheart {
+  color: #fff;
+  position: absolute;
+  left: 8rem;
+  top: 2rem;
+}
+
+.imgsearch {
+  color: #fff;
+  position: absolute;
+  right: 5rem;
+  top: 2rem;
+
+}
+
+/* .imgsearch:hover{
+  background-color: rgba(71,45,45,0.9);
+  border-style: solid;
+  border-radius: 10px;
+  border: #fff;
+
+} */
+.imguser {
+  color: #fff;
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+
+}
+
+.navbar-brand {
+  position: relative;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-family: 'Taviraj', serif;
+  font-size: 2.5rem;
+  /* font-weight:bold; */
+}
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Taviraj', serif;
+}
+
+/* Download-button */
+
+.download-button {
+
+  margin: 5% 3% 5% 0;
+}
+
+.unfixdown {
+  position: relative;
+}
+
+/* กรณีเลื่อนแล้วจ้า */
+.fixdown {
+  position: fixed;
+  top: 0;
+}
+
+.navbarmain{
+
+  z-index: 1030;
+  color: #fff;
+  height: 4.5rem;
+  background-color: rgba(71,45,45,0.9);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: 0.4s;
+}
+
+.collapse:not(.show){
+display: flex;
+
+}
+.collapse{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+/* title-image */
+.title-image {
+  margin-left: 10%;
+  width: 60%;
+  transform: rotate(25deg);
+}
+ /* -------*/
+
+ .navbar:hover, .navbarmain:hover {
+  color: #fff;
+  background-color: rgba(71, 45, 45, 0.0);
+
+}
+
+/*Feature*/
+#features {
+  padding: 7% 15%;
+}
+.feature-box{
+  text-align: center;
+}
+.icon {
+color: #3E6D9C;
+margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#8BBCCC;
+}
+.box{
+  font-family: arial;
+  text-align: center;
+}
+#footer{
+  padding: 5% 5%;
+  text-align: center;
+}
+
+/*Product*/
+
+.banana img{
+  width: 50%;
+  height: auto;
+ }
+ .banana{
+ padding:px;
+ display: flex;
+ justify-content: space-between;
+ margin: 10rem auto 0 auto;
+ width: 60%;
+ }
+ .bananas h4{
+   margin: 0;
+ }
+ .banana p{
+   margin-right: 15px;
+ }
