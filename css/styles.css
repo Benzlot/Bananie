@@ -4,8 +4,7 @@
 }
 
 body {
-  background-color: #a8914f;
-  margin: 0;
+  background-color: #F9E29C;
 }
 
 #title {
@@ -31,7 +30,7 @@ h1 {
 /* Navigation Bar */
 .navbar {
   position: relative;
-  background-color: rgba(71, 45, 45, 0.9);
+ 
   width: 100%;
   justify-content: center;
   flex-direction: column;
@@ -71,13 +70,6 @@ h1 {
 
 }
 
-/* .imgsearch:hover{
-  background-color: rgba(71,45,45,0.9);
-  border-style: solid;
-  border-radius: 10px;
-  border: #fff;
-
-} */
 .imguser {
   color: #fff;
   position: absolute;
@@ -127,7 +119,6 @@ h1 {
   z-index: 1030;
   color: #fff;
   height: 4.5rem;
-  background-color: rgba(71,45,45,0.9);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -151,22 +142,33 @@ display: flex;
 }
  /* -------*/
 
- .navbar:hover, .navbarmain:hover {
-  color: #fff;
-  background-color: rgba(71, 45, 45, 0.0);
+ .brown{
+
+background-color:rgba(71,45,45,0.9) ;
+
+}
+.browntran{
+
+  background-color:rgba(71,45,45,0.0);
 
 }
 
 /*Feature*/
 #features {
-  padding: 7% 15%;
+  padding: 3% 9%;
+  background-color:#fffceb;
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  justify-content: center;
 }
+
 .feature-box{
   text-align: center;
 }
 .icon {
-color: #3E6D9C;
-margin-bottom: 1rem;
+  color: #826651;
+  margin-bottom: 1rem;
 }
 
 .icon:hover{
@@ -179,24 +181,92 @@ margin-bottom: 1rem;
 #footer{
   padding: 5% 5%;
   text-align: center;
+  background-color: rgba(71,45,45,0.8);
+  color: #fff;
 }
 
 /*Product*/
-
-.banana img{
+#pricing{
+  
+  padding: 1rem 1rem;
+  
+  justify-content: center;
+  background-color: #fff9a1;
+}
+.decrease{
+  width: 10%;
+  margin: 0 auto 0 auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.pricing{
+  justify-content: center;
+  margin: 10% auto 10% auto;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.price{
+  margin: 0 auto 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   width: 50%;
-  height: auto;
- }
- .banana{
- padding:px;
- display: flex;
- justify-content: space-between;
- margin: 10rem auto 0 auto;
- width: 60%;
- }
- .bananas h4{
-   margin: 0;
- }
- .banana p{
-   margin-right: 15px;
- }
+  justify-content: center;
+
+}
+.infor2{
+  margin-right: 5rem;
+  display: flex;
+  flex-direction: row;
+}
+.infor1 {
+  align-items: center;
+  display: flex;
+  padding-bottom: 2rem;
+  flex-direction: row;
+}
+.pricing h2{
+  flex-direction: column;
+  display: flex;
+  padding: 1rem 1rem;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.banana {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.banana{
+  margin: 0 auto 0 auto;
+  width: 500%;
+  /* margin-left: 10%;
+  margin-right: -10%; */
+}
+.C1-image1,.C2-image2,.C3-image3  {
+  margin: 1rem auto;
+  width: 35%;
+  box-shadow: 1.5px 1.5px 7.5px #362416;
+  border-radius: 10%;
+}
+
+/*Testimonials */
+#Cimages{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F9E29C;
+}
+#Cimages h3 {
+  text-align: center;
+  margin-top: 2.5%;
+}
